@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: MatrixMultBlackBoxTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.085 sec <<< FAILURE! - in MatrixMultBlackBoxTest
+test_blackbox[Case1](MatrixMultBlackBoxTest)  Time elapsed: 0.028 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1  4  9
+16  25  36
+49  64  81]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at MatrixMultBlackBoxTest.test_blackbox(MatrixMultBlackBoxTest.java:84)
+
+test_blackbox[Case2](MatrixMultBlackBoxTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1  4  9
+16  25  36
+49  64  81]> but was:<[Val is 1
+Val is 2
+Val is 3
+Val is 4
+Val is 5
+Val is 6
+Val is 7
+Val is 8
+Val is 9
+Val is 1
+Val is 2
+Val is 3
+Val is 4
+Val is 5
+Val is 6
+Val is 7
+Val is 8
+Val is 9
+]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at MatrixMultBlackBoxTest.test_blackbox(MatrixMultBlackBoxTest.java:84)
+
