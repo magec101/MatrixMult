@@ -27,7 +27,7 @@ public:
 		int output[3][3] = { 1,4,9,16,25,36,49,64,81 } ;
 	
 	
-		matrixMultpMain(19, largv, result);
+		matrixMultMain(19, largv, result);
 		/*int marks[10] = {50,50,50,50,50,50,50,50,50,50};
 		float Avg=0.0;
 		Avg = AvgMarksMain(marks);
