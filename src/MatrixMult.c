@@ -62,7 +62,7 @@ void input_vector_CL1(int argc, const char** argv,int vector[][3] )
   //  		if (argv[k] != NULL)
     		if ( k < argc)
     		{
-    			printf("Val is %s\n", argv[k]);
+   // 			printf("Val is %s\n", argv[k]);
     			vector[i][j]= atoi(argv[k]);
     			k++;
     		}
@@ -89,7 +89,7 @@ int main(int argc, const char** argv)
 		printf("\n");
   }
 */
-/*
+
   for (i=0; i<3; i++)
   {
 		for (j=0; j<3; j++)
@@ -103,7 +103,7 @@ int main(int argc, const char** argv)
 			printf("\n");
 
   }
-*/
+
     //matrixMultMain(argc, argv);
     return 0;
 }
