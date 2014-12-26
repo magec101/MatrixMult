@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite name="cxxtest" date="Wed Dec 17 08:14:41 2014" tests="2" errors="0" failures="0" time="0" >
+<testsuite name="cxxtest" date="Fri Dec 26 06:44:18 2014" tests="2" errors="0" failures="0" time="0" >
     <testcase classname="MatrixMultTest" name="test_Unit_Test_1" line="15">
         <warning line="16" >Test skipping is not supported without exception handling.</warning>
     </testcase>

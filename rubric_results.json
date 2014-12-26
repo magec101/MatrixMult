@@ -14,9 +14,9 @@
                 "score": "5",
                 "visible": "all",
                 "result": {
-                    "PASS": false,
+                    "PASS": true,
                     "violations": [
-                        "expected:<[1  4  9\n16  25  36\n49  64  81]> but was:<[]>"
+                        ""
                     ]
                 }
             },
@@ -33,9 +33,9 @@
                 "score": "",
                 "visible": "all",
                 "result": {
-                    "PASS": false,
+                    "PASS": true,
                     "violations": [
-                        "expected:<[1  4  9\n16  25  36\n49  64  81]> but was:<[Val is 1\nVal is 2\nVal is 3\nVal is 4\nVal is 5\nVal is 6\nVal is 7\nVal is 8\nVal is 9\nVal is 1\nVal is 2\nVal is 3\nVal is 4\nVal is 5\nVal is 6\nVal is 7\nVal is 8\nVal is 9\n]>"
+                        ""
                     ]
                 }
             }
@@ -65,15 +65,15 @@
         "blackboxtests": "undefined",
         "system": "100"
     },
-    "lastSaved": "20141217 095821",
+    "lastSaved": "20141226 121410",
     "resultSummary": {
         "blackboxtests": {
             "totalchecks": 2,
-            "pass": 0,
-            "fail": 2,
+            "pass": 2,
+            "fail": 0,
             "error": 0,
             "skipped": 0,
-            "groupScore": 0
+            "groupScore": 5
         },
         "system": {
             "totalchecks": 1,
@@ -85,5 +85,5 @@
         },
         "overallScore": 0
     },
-    "resultLastSaved": "20141217 134215"
+    "resultLastSaved": "20141226 121426"
 }
